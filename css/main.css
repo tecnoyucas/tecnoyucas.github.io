@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-color: #f7f7f7;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -22,12 +22,23 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { margin-bottom: 1em; }
+h1 {
+  margin-bottom: 1em;
+}
+h2 {
+  color: #09f;
+  margin: .7em 0;
+  font-size: 2em;
+}
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a {
+  color: #09f;
+  text-decoration: none;
+}
+a:hover   {
+  text-decoration: underline;
+}
 
 /*****************************************************************************/
 /*
@@ -59,13 +70,25 @@ a:visited { color: #a0a; }
   font-size: 115%;
   text-align: justify;
   width: 42em;
-  margin: 3em auto 2em;
+  margin: 0em auto 2em;
   line-height: 1.5em;
+}
+
+.header {
+  background: #fff;
+  height: 25px;
+  padding: 5px 5px 3px;
+  border-bottom: 5px solid #9cf;
 }
 
 .header a {
   font-weight: bold;
   text-decoration: none;
+}
+
+.header .right {
+  float: right;
+  padding-top: 1px;
 }
 
 .title {
@@ -74,7 +97,7 @@ a:visited { color: #a0a; }
 }
 
 .title a {
-  color: #a00;
+  color: #09f;
 }
 
 .title a:hover {
@@ -82,7 +105,7 @@ a:visited { color: #a0a; }
 }
 
 .header a.extra {
-  color: #aaa;
+  color: #9cf;
   margin-left: 1em;
 }
 
@@ -92,6 +115,7 @@ a:visited { color: #a0a; }
 
 .meta {
   color: #aaa;
+  font-size: 12px;
 }
 
 .footer {
@@ -104,7 +128,11 @@ a:visited { color: #a0a; }
 
 .footer .contact {
   float: left;
-  margin-right: 3em;
+  width: 100%;
+}
+
+.footer .contact p {
+  margin: 0;
 }
 
 .footer .contact a {
@@ -126,6 +154,48 @@ a:visited { color: #a0a; }
 /* Posts
 /*
 /*****************************************************************************/
+.post-wrapper {
+  border: 1px solid #eee;
+  border-bottom: 1px solid #ddd;
+  border-top: 0;
+  padding: 10px 30px;
+  background: #fff;
+}
+
+.post-wrapper .share {
+    width: 100%;
+    height: 10px;
+    text-align: right;
+}
+
+.post-wrapper .share .twitter-share-button {
+    margin-right: -5px;
+}
+
+.post {
+  color: #333;
+}
+
+.related {
+  margin-top: 30px;
+  border-top: 1px solid #eee;
+  font-size: 12px;
+  font-color: #777;
+}
+
+.related > span {
+  width: 45%;
+  padding: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+.related span.left {
+  float: left;
+}
+
+.related span.right {
+}
 
 /* standard */
 .post pre {
