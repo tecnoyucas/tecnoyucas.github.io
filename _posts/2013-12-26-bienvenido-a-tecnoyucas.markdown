@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "Bienvenido a TecnoYucas"
 date:   2013-12-26 16:59:03
