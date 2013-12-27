@@ -30,6 +30,10 @@ h2 {
   margin: .7em 0;
   font-size: 2em;
 }
+h3 {
+  margin: 1em 0;
+  color: black;
+}
 p { margin: 1em 0; }
 
 a {
@@ -202,6 +206,11 @@ a:hover   {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
+  overflow: hidden;
+}
+
+.post pre:hover {
+  overflow-x: scroll;
 }
 
 .post ul, .post ol {
