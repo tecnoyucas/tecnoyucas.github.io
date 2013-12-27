@@ -30,10 +30,6 @@ h2 {
   margin: .7em 0;
   font-size: 2em;
 }
-h3 {
-  margin: 1em 0;
-  color: black;
-}
 p { margin: 1em 0; }
 
 a {
@@ -199,6 +195,11 @@ a:hover   {
 }
 
 .related span.right {
+}
+
+.post h3 {
+  margin: 1em 0;
+  color: black;
 }
 
 /* standard */
