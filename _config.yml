@@ -2,4 +2,3 @@ name: TecnoYucas
 markdown: redcarpet
 pygments: true
 lsi: true
-permalink: date
