@@ -8,7 +8,12 @@ title: Yucazos de Innovación Tecnológica
 	<ul class="posts">
 		{% for post in site.posts %}
 			{% unless post.categories contains 'old' %}
-				<li><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>
+				<li class="solid">
+					<a href="{{ post.url }}">
+						&#x27a4 {{ post.title }}
+						<span>{{ post.date | date_to_string }}</span>
+					</a>
+				</li>
 			{% endunless %}
 		{% endfor %}
 	</ul>
@@ -17,7 +22,7 @@ title: Yucazos de Innovación Tecnológica
 	<ul class="posts">
 		{% for post in site.posts %}
 			{% if post.categories contains 'old' %}
-				<li><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>
+				<li><a href="{{ post.url }}">&#x27af {{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>
 			{% endif %}
 		{% endfor %}
 	</ul>

@@ -54,6 +54,37 @@ a:hover   {
   line-height: 1.75em;
 }
 
+.posts li.solid > a {
+  background: white;
+  width: 606px;
+  border-radius: 2px;
+  border: 1px solid #eee;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.posts li.solid > a:hover {
+  border: 1px solid #9cf;
+  border-left: 2px solid #09f;
+  padding-left: 9px;
+  text-decoration: none;
+}
+
+.posts li.solid > a:active {
+  background: #eee;
+}
+
+.posts li.solid > a span {
+  float: right;
+  color: #ccc;
+}
+
+.posts li.solid > a:hover span {
+  color: #5af;
+}
+
 .posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
