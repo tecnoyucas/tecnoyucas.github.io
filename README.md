@@ -1,4 +1,4 @@
-yucazos.github.io
+tecnoyucas.github.io
 =================
 
 Yucazos de Innovación Tecnológica
