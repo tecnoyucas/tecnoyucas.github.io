@@ -1,8 +1,8 @@
-#tecnoyucas.github.io
+﻿#tecnoyucas.github.io
 
 Yucazos de Innovación Tecnológica
 
-## Installation  
+## Installation
 
 ### Ruby, gems, jekyll
 
@@ -11,7 +11,7 @@ Yucazos de Innovación Tecnológica
 
   gem install jekyll
 ```
-## Running 
+## Running
 
 ```bash
   jekyll serve
