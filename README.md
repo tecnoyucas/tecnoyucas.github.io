@@ -27,7 +27,7 @@ Check it here: [A successful Git branching model](http://nvie.com/posts/a-succes
 
 Make a [new issue](https://github.com/tecnoyucas/tecnoyucas.github.io/issues/new) at github.
 
-Remember to push with a hashtag with the number of the branch, for example:
+Remember to push with a hashtag with the number of the issue, for example:
 
     git commit -am "Changed made #12345"
 
