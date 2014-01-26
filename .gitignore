@@ -1,1 +1,3 @@
 _site
+*.sublime-proyect
+*.sublime-workspace
